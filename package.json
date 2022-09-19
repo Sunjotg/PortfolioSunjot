@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+   "start": "react-scripts --openssl-legacy-provider start",
+   "build": "react-scripts --openssl-legacy-provider build",
    "build": "next build && next export",
    "start": "next start"
    "dev": "next dev",
